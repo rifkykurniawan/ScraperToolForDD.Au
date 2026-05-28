@@ -4,14 +4,14 @@ import json
 import asyncio
 from playwright.async_api import async_playwright
 
-OUTPUT_FILE = "Retail_and_Local_Services.csv"
+OUTPUT_FILE = "Travel&Leisure.csv"
 
 REGIONS = [
     "sydney",
 ]
 
 CATEGORIES = [
-    "services",
+    "travel",
 ]
 
 LIMIT = 30
