@@ -82,7 +82,10 @@ venv\Scripts\activate
 python3 -m venv venv
 ```
 
-Activate:
+Activate (Always activate the virtual environment):
+```bash
+python3 -m venv venv
+```
 
 ```bash
 source venv/bin/activate
