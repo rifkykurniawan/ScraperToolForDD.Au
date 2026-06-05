@@ -23,10 +23,8 @@ CATEGORIES = [
 
 LIMIT = 30
 
-# True = ambil 1 data saja
-# False = scrape semua data
-TEST_ONE_ONLY = False
-
+TEST_ONE_ONLY = False 
+#yes only one, false all data
 
 async def get_offer_detail(page, uuid):
 
