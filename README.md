@@ -78,10 +78,6 @@ venv\Scripts\activate
 
 ### macOS / Linux
 
-```bash
-python3 -m venv venv
-```
-
 Activate (Always activate the virtual environment):
 ```bash
 python3 -m venv venv
