@@ -4,7 +4,7 @@ import json
 import asyncio
 from playwright.async_api import async_playwright
 
-OUTPUT_FILE = "a_Fine_Dining.csv"
+OUTPUT_FILE = "a_Travel_&_Leisure.csv"
 #Fine_Dining
 #Café_and_Family_Dining
 #Informal_Dining_and_Takeaway
@@ -13,11 +13,11 @@ OUTPUT_FILE = "a_Fine_Dining.csv"
 #Travel_&_Leisure
 
 REGIONS = [
-    "darwin",
+    "adelaide",
 ]
 
 CATEGORIES = [
-    "fine",
+    "travel",
     #fine,cafe,takeaway,activity,services,travel
 ]
 
