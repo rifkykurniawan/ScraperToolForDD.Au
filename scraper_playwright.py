@@ -4,7 +4,10 @@ import json
 import asyncio
 from playwright.async_api import async_playwright
 
-OUTPUT_FILE = "d_Attractions_and_Activities.csv"
+OUTPUT_FILE = "xxxx.csv"
+#change the output file name based on the category you are scraping
+
+#List of categories to scrape from Entertainment
 #Fine_Dining
 #Café_and_Family_Dining
 #Informal_Dining_and_Takeaway
@@ -12,10 +15,13 @@ OUTPUT_FILE = "d_Attractions_and_Activities.csv"
 #Retail_and_Local_Services
 #Travel_&_Leisure
 
+
+#Change the region based on your location, for example, "darwin", "brisbane", "sydney", "melbourne", "adelaide", "perth", "hobart", "canberra"
 REGIONS = [
     "darwin",
 ]
 
+#Change the category based on your preference, for example, "activity", "fine", "cafe", "takeaway", "services", "travel"
 CATEGORIES = [
     "activity",
     #fine,cafe,takeaway,activity,services,travel
