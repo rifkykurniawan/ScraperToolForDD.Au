@@ -18,7 +18,7 @@ OUTPUT_FILE = "xxxx.csv"
 
 #Change the region based on your location, for example, "darwin", "brisbane", "sydney", "melbourne", "adelaide", "perth", "hobart", "canberra"
 REGIONS = [
-    "darwin",
+    "perth",
 ]
 
 #Change the category based on your preference, for example, "activity", "fine", "cafe", "takeaway", "services", "travel"
